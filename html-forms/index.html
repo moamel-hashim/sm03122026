@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML forms</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="#">
+      <div>
+        <label for="Email">Email:</label>
+      </div>
+      <div>
+        <input type="email" id="Email" name="Email" />
+      </div>
+      <div>
+        <label for="why-is-cool">Why is coding cool?</label>
+      </div>
+      <div>
+        <select id="why-is-cool" name="why-is-cool">
+          <option value="select an option">Select an option</option>
+          <option value="it's fun">Because it's interesting</option>
+          <option value="it's creative">Because it's fun</option>
+          <option value="it solves problems">Because it's powerful</option>
+        </select>
+      </div>
+      <div>
+        <p>Favorite Language (choose one)</p>
+        <input
+          type="radio"
+          id="favorite-language-html"
+          name="favorite-language"
+          value="HTML"
+        />
+        <label for="favorite-language-html">HTML</label>
+        <input
+          type="radio"
+          id="favorite-language-css"
+          name="favorite-language"
+          value="CSS"
+        />
+        <label for="favorite-language-css">CSS</label>
+        <input
+          type="radio"
+          id="favorite-language-js"
+          name="favorite-language"
+          value="JavaScript"
+        />
+        <label for="favorite-language-js">JavaScript</label>
+      </div>
+      <div>
+        <p>Would you like to sign up for more information?</p>
+        <input type="checkbox" id="sign-up" name="sign-up" value="yes" />
+        <label for="sign-up">Sign me up!</label>
+      </div>
+      <div>
+        <label for="comments">Comments</label>
+        <br>
+        <textarea id="comments" name="comments"  rows="10" cols="35"></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
